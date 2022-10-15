@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - prints alpha in lower case
@@ -14,6 +12,8 @@ int main(void)
 	{
 		putchar(lc);
 	}
+	
 	putchar('\n');
+	
 	return (0);
 }
